@@ -207,8 +207,8 @@ SUPABASE_SERVICE_ROLE_KEY=your_supabase_service_role_key
 # ── AI / Mistral ──────────────────────────────────────────
 MISTRAL_API_KEY=your_mistral_api_key
 
-# ── App Config ────────────────────────────────────────────
-NEXT_PUBLIC_SITE_URL=http://localhost:3000
+# ── JWT Secret (Used to sign/verify server-side tokens) ────────────────────────────────────────────
+JWT_SECRET=your_generated_random_string_here
 ```
 
 > ⚠️ **Never commit `.env.local` to version control.** Ensure it's listed in your `.gitignore`.
