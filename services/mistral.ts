@@ -2,7 +2,7 @@ import { extractedEventsSchema } from "@/schemas";
 import type { ExtractedEvent } from "@/types";
 
 const MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions";
-const MODEL = "mistral-large-latest";
+const MODEL = "mistral-small-latest";
 
 const SYSTEM_PROMPT = `You are an assistant that extracts academic deadlines from a course syllabus.
 
